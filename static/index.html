@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Classes</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta name="monetag" content="74848e8ddd965b05956660ef1d8d1f4a">
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="description"
+        content="From studio portraits to epic alpine landscapes, browse the best photography, retouching and photojournalism today." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/particles.css" />
+    <link rel="shortcut icon" href="resources/images/favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="resources/css/home.css" />
+    <link rel="stylesheet" href="assets/css/nav.css">
+</head>
+
+<body class="classic midnight">
+    <div class="header2">
+        <br>
+        <a href="/../" class="logo">
+            <img src="xmaslogo.png" alt="The Unblocked Hub Logo">
+        </a>
+        <div class="header2-right">
+            <a href="photography" style="font-size: 25px; font-weight: bold;">Proxy</a>
+            <a href="nature" style="font-size: 25px; font-weight: bold;">Games</a>
+            <a href="ocean" style="font-size: 25px; font-weight: bold;">Apps</a>
+            <a href="forest" style="font-size: 25px; font-weight: bold;">Emulator</a>
+            <a href="settings" style="font-size: 25px; font-weight: bold;">Settings</a>
+        </div>
+    </div>
+    
+    
+    <div id="particles-js">
+        <canvas class="particles-js-canvas-el" style="z-index: 10; top: 0; left: 0; position: absolute; width: 100%; height: 100%;" width="1920" height="942"></canvas>
+        <div class="container">
+            <div class="mainhead">
+                <div class="title">
+                    <h1>The Unblocked Hub</h1>
+                </div>
+                <br>
+                <br>
+                <p>What's Missing here? Oh yeah ADS! For a limited time no ads will be present on the site except on the support page! Merry CHristmas</p>
+                <br>
+                <p id="splashtext"></p>
+            </div>
+            <br>
+
+            <p>Dear User, from December 23rd - January 2, The Unblocked Hub will be undergoing maintenance for V2 and will be offline.<br> Catch you on the flip side, <br> <br> The Unblocked Hub</p>
+            <div>
+                <button class="v2-btn">V2 Info</button>
+            </div>
+            <br>
+            <div>
+                <button class="money-btn">Support Us!</button>
+            </div>
+        </div>
+    </div>
+
+    <canvas class="particles-js-canvas-el" style="z-index: 10; top: 0; left: 0; position: absolute; width: 100%; height: 100%;" width="1920" height="942"></canvas>
+
+    <div>
+        <script src="assets/js/themecontrol.js"></script>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="assets/js/particles.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BX1R0Q6FP4"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2450237895619054" crossorigin="anonymous"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-BX1R0Q6FP4');
+    </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const splashtextElement = document.getElementById("splashtext");
+        var splashtexts = [
+            "Merry Christmas ya filthy animal",
+            "Can you believe it? Christmas! Only 364 days away!",
+            "Now bring us some figgy pudding",
+            "KRRRRRIIIMMMMMMMMAAAAAAAAAAAAAA",
+            "We won't go until we get some",
+            "People are 1#: lazy, we only care about ourselves",
+            "Your competition knows this, so their crap flies off the shelves",
+            "Are ya dying hard or hardly dying?",
+            "Good news! I let out the Christmas spirits! Run.",
+            "Merry Christmas to all! (except Wisconsin and Wyoming)",
+            "Merry Christmas from us at the Unblocked hub! :)",
+            "Unblocking the holiday!",
+            "Hm. it's almost time for that one December holiday.",
+            "Festive!",
+            "Reindeer game central",
+            "It's that Christmas morning feeling once again!",
+            "You better watch out, you better not cry",
+            "It’s beginning to look a lot like Christmas",
+            "Can we do christmas in june?",
+            "And deck the halls with Boughs of holly!",
+            "Please note: Christmas is canceled. Apparently, you told Santa you have been good this year… He died laughing.",
+            "Merry Christmas! May your happiness be large and your bills be small.",
+            "Keep your friends close, your enemies closer, and receipts for all major purchases the closest.",
+            "Merry Christmas! Don’t worry, this website has been SANTA-tized!",
+            "Merry Christmas! Hope you didn’t spend too much — unless, of course, it’s on a gift I want.",
+            "It’s the most wonderful time of the year. Allegedly.",
+            "There’s only one Christmas spirit and I just spent it all on a box",
+            "We are opening the presents now. Not later. Now. Why? We’re old and we can open our presents WHENEVER WE WANT!",
+            "Merry Christmas!",
+            "Happy Christmas!",
+            "Nizhónígo Késhmish!",
+            "Have a good Chrissie!",
+            "Feliz Navidad!",
+            "Nollaig shona duit!",
+            "Joyeux Noël!",
+            "Crăciun Fericit!",
+            "Shubh Krismas!",
+            "圣诞快乐 (Shèng dàn kuài lè)",
+            "Maligayang Pasko!",
+            "Kilisimasi Fiefia",
+            "Noheli nziza!"
+        ];
+        const randomIndex = Math.floor(Math.random() * splashtexts.length);
+        const randomSplashText = splashtexts[randomIndex];
+        splashtextElement.textContent = randomSplashText;
+
+        document.querySelector(".v2-btn").addEventListener("click", () => {
+            window.location.href = "v2transition.html";
+        });
+
+        const moneyButton = document.querySelector(".money-btn");
+        if (moneyButton) {
+            moneyButton.addEventListener("click", () => {
+                window.location.href = "support.html";
+            });
+        }
+        if (localStorage.getItem('cloak')) {
+            const cloakValue = localStorage.getItem('cloak') === 'true' ? 'true' : 'false';
+            document.getElementById('tab-cloak').value = cloakValue;
+        } else {
+            document.getElementById('tab-cloak').value = 'true';
+            localStorage.setItem('cloak', 'true');
+        }
+    });
+</script>
+
+
+    <footer>Copyright &copy; 2023 The Unblocked Hub</footer>
+</body>
+
+</html>
